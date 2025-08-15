@@ -3,15 +3,15 @@
   "version": "0.0.1",
   "description": "HomeChip",
   "author": "Alejandro Ojeda Gutiérrez",
-  "license": "EUPL-1.2",
-  "type": "module",
-  "workspaces": [
-    "packages/*"
-  ],
+  "license": "SUL-1.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/localnet/homechip.git"
   },
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "lint": "eslint --color .",
     "fix": "eslint --fix .",
